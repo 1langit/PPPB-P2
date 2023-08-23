@@ -20,14 +20,14 @@ class MainActivity : AppCompatActivity() {
             val email = "email1"
             val pass = "pass1"
 
-//            btnGetText.setOnClickListener {
-//                val valueText = edtEmail.text.toString()
-//                Toast.makeText(
-//                    this@MainActivity,
-//                    valueText,
-//                    Toast.LENGTH_SHORT
-//                ).show()
-//            }
+            btnGetText.setOnClickListener {
+                val valueText = edtEmail.text.toString()
+                Toast.makeText(
+                    this@MainActivity,
+                    valueText,
+                    Toast.LENGTH_SHORT
+                ).show()
+            }
 
             btnCount.setOnClickListener {
                 number++
